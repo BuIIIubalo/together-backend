@@ -7,7 +7,7 @@ async function bootstrap() {
 
   app.setGlobalPrefix('api')
   app.enableCors({
-    origin: 'http://localhost:5174',
+    origin: 'http://localhost:5173',
     methods: ["GET", "POST"],
     credentials: true,
   })
